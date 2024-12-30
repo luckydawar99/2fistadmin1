@@ -1,0 +1,46 @@
+/* Thin and custom scrollbar for modern browsers */
+.grid-card-wrap {
+    scrollbar-width: thin; /* Makes the scrollbar thin for modern browsers */
+    scrollbar-color: #ccc transparent; /* Sets the thumb and track colors */
+  }
+  
+  /* Webkit-based browser scrollbar customization */
+  .grid-card-wrap::-webkit-scrollbar {
+    width: 5px; /* Thin scrollbar width */
+  }
+  
+  .grid-card-wrap::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+  }
+  
+  .grid-card-wrap::-webkit-scrollbar-thumb {
+    background: #ccc; /* Light gray scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for scrollbar thumb */
+  }
+  
+  .grid-card-wrap::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Darker gray color on hover for better visibility */
+  }
+  /* Thin and custom scrollbar for modern browsers */
+.grid-item-wrap {
+  scrollbar-width: thin; /* Makes the scrollbar thin for modern browsers */
+  scrollbar-color: #ccc transparent; /* Sets the thumb and track colors */
+}
+
+/* Webkit-based browser scrollbar customization */
+.grid-item-wrap::-webkit-scrollbar {
+  width: 5px; /* Thin scrollbar width */
+}
+
+.grid-item-wrap::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.grid-item-wrap::-webkit-scrollbar-thumb {
+  background: #ccc; /* Light gray scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for scrollbar thumb */
+}
+
+.grid-item-wrap::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Darker gray color on hover for better visibility */
+}
